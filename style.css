@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #020617;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.hero p {
+  margin: 20px 0;
+  max-width: 500px;
+}
+
+.hero button {
+  padding: 12px 24px;
+  background: #38bdf8;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero img {
+  width: 260px;
+  border-radius: 12px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 60px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* WHY ME */
+.why-list {
+  list-style: none;
+}
+
+.why-list li {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
